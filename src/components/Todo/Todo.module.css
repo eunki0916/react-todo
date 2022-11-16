@@ -1,0 +1,36 @@
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.1rem;
+  color: var(--color-text);
+}
+
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  accent-color: var(--color-accent);
+}
+.text {
+  flex: 1;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+.icon:hover {
+  background-color: var(--color-gray);
+  transform: rotate(15deg) scale(1.2);
+}
+button {
+  background-color: transparent;
+}
