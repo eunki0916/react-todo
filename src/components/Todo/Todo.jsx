@@ -4,7 +4,7 @@ import styles from "./Todo.module.css";
 // 아이콘 이름 앞글자
 
 const Todo = ({ todo, onUpdate, onDelete }) => {
-  const { text, status, id } = todo;
+  const { status, id } = todo;
   const handleChange = (e) => {
     // 이 컴포넌트 내부에서만 사용
     const status = e.target.checked ? "completed" : "active";
